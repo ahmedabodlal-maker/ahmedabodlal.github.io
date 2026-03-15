@@ -1,117 +1,104 @@
-# ahmedabodlal.github.io
 <!DOCTYPE html>
 <html lang="ar">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>شركة الشروق الجديد - فروعنا</title>
 
 <style>
 
 body{
-font-family: Arial, Tahoma;
-background: linear-gradient(180deg,#eaf6ff,#f7fbff);
+font-family: Tahoma, Arial;
 margin:0;
-padding:0;
-text-align:center;
+background:#eef6fb;
 direction:rtl;
+text-align:center;
 }
 
 .header{
-background:#0ea5e9;
+background:#2aa7d6;
 color:white;
-padding:30px 20px;
-box-shadow:0 4px 15px rgba(0,0,0,0.15);
+padding:35px 15px;
+text-align:center;
 }
 
-.company{
-font-size:32px;
-font-weight:bold;
-margin-bottom:10px;
+.header h1{
+margin:0;
+font-size:30px;
 }
 
-.subtitle{
-font-size:20px;
-opacity:0.9;
+.header p{
+margin-top:8px;
+font-size:18px;
 }
 
 .container{
-max-width:900px;
+max-width:700px;
 margin:auto;
 padding:20px;
 }
 
 .branch{
 background:white;
-margin:20px auto;
+margin:20px 0;
 padding:25px;
-border-radius:14px;
-box-shadow:0 5px 20px rgba(0,0,0,0.08);
-transition:0.3s;
-}
-
-.branch:hover{
-transform:translateY(-3px);
-box-shadow:0 10px 25px rgba(0,0,0,0.12);
+border-radius:12px;
+box-shadow:0 3px 15px rgba(0,0,0,0.1);
 }
 
 .branch h3{
 margin:0;
-color:#0369a1;
-font-size:22px;
+color:#0c5f8f;
 }
 
 .branch p{
-color:#444;
-margin:10px 0 15px;
+color:#555;
+margin:10px 0 20px;
 }
 
 .buttons{
 display:flex;
 justify-content:center;
 gap:10px;
-flex-wrap:wrap;
 }
 
 button{
-padding:10px 18px;
 border:none;
-border-radius:8px;
+padding:10px 18px;
+border-radius:7px;
 font-size:14px;
 cursor:pointer;
-transition:0.2s;
-}
-
-button:hover{
-opacity:0.9;
-transform:scale(1.03);
 }
 
 .call{
-background:#10b981;
+background:#1fb37a;
 color:white;
 }
 
 .map{
-background:#0284c7;
+background:#1c82c3;
 color:white;
 }
 
-.footer{
-margin-top:30px;
-padding:15px;
+footer{
+margin-top:25px;
+color:#777;
 font-size:13px;
-color:#666;
+padding-bottom:15px;
 }
 
 </style>
+
 </head>
 
 <body>
 
 <div class="header">
-<div class="company">شركة الشروق الجديد</div>
-<div class="subtitle">فروعنا</div>
+<h1>شركة الشروق الجديد</h1>
+<p>فروعنا</p>
 </div>
 
 <div class="container">
@@ -150,9 +137,9 @@ color:#666;
 
 </div>
 
-<div class="footer">
+<footer>
 © جميع الحقوق محفوظة - شركة الشروق الجديد
-</div>
+</footer>
 
 </body>
 </html>
